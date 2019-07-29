@@ -1,0 +1,41 @@
+.shop-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 1rem;
+  padding: 6px;
+}
+
+.shop-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.shop-item__image {
+  height: 120px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.shop-item__content {
+  margin: 0 0.5rem;
+  flex-basis: 350px;
+}
+
+.shop-item__price, .shop-item button {
+  display: inline-block;
+}
+
+.shop-item__price {
+  font-size: 1.2em;
+  min-width: 80px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.shop-item button[disabled] {
+  color: rgb(226, 75, 75);
+  background-color: transparent;
+  border-radius: 0;
+  border: solid 2px;
+  cursor: not-allowed;
+}

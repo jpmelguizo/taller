@@ -1,0 +1,13 @@
+.header {
+  margin: 1rem 0.5rem 2rem;
+}
+
+.header__title {
+  display: inline-block;
+  margin: 0;
+}
+
+.header__logo {
+  vertical-align: bottom;
+  margin-right: 10px;
+}
