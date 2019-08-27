@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { samples } from './samples';
-import Inventory from './components/inventory/Inventory';
-import Shop from './components/shop/Shop';
-import Cart from './components/cart/Cart';
-import Header from './components/header/Header';
+import Inventory from './components/Inventory/Inventory';
+import Shop from './components/Shop/Shop';
+import Cart from './components/Cart/Cart';
+import Header from './components/Header/Header';
 
 const initialState = {
   inventory: {},
@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="app">
-      <Header shopName={"Pirri's Coffee & Tea shop"}/>
+      <Header shopName={"Ralph's Coffee & Tea shop"}/>
       <main>
         <Shop items={state.inventory}/>
         <Cart />
